@@ -45,12 +45,12 @@ end
 
 def find_cool(array)
   array.map do |hash|
-    hash.each do |key, value|
+    hash.map do |key, value|
       if key[:name] == "blake"
+        
       end
     end
   end
-  new_array
 end
 
 
