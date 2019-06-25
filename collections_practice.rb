@@ -44,7 +44,10 @@ def merge_data(keys, data)
 end
 
 def find_cool(array)
-  
+  new_array = []
+  array.each do |key, value|
+    if value == "cool"
+      new_array << 
 end
 
 
