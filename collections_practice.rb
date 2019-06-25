@@ -49,6 +49,7 @@ def find_cool(array)
     hash.each do |key, value|
       if value == "cool"
         new_array << hash
+      end
    end
   end
 end
