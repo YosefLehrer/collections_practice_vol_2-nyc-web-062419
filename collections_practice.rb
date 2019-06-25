@@ -46,7 +46,7 @@ end
 def find_cool(array)
   array.map do |hash|
     hash.map do |key, value|
-      if key[:name] == "blake"
+      if key == "blake"
         
       end
     end
