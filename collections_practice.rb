@@ -51,7 +51,7 @@ def find_cool(array)
         new_array << key
         new_array << value
       end
-   end
+    end
   end
   new_array
 end
