@@ -50,7 +50,8 @@ def find_cool(array)
       if value == "sort of cool"
         new_array
       else
-        new_array << hash
+        new_array << key
+        new_array << value
       end
    end
   end
