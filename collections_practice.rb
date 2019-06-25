@@ -44,12 +44,9 @@ def merge_data(keys, data)
 end
 
 def find_cool(array)
-  new_array = []
-  array.each do |hash|
+  array.map do |hash|
     hash.each do |key, value|
       if key[:name] == "blake"
-        new_array << key
-        new_array << value
       end
     end
   end
